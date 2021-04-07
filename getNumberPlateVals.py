@@ -2,9 +2,9 @@ import base64
 import requests
 import json
 import re
-url = 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyB8PRCpfhgC3VXValApriLyZWXMmxgy2gY'
+url = 'https://vision.googleapis.com/v1/images:annotate?key=[Google vision key]'
 
-# AIzaSyDrfUf8BMPMRcHQzAi1h4MZ56pGPeIeNMs
+
 
 
 def detect_license_plate(encodedImage):
